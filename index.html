@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="cZV0yJoFaCD4YPFDqeYI1Y">
+<head data-page-node-id="eVbv9l2h4Nntp5Ycjz2EbW">
+<meta charset="UTF-8" data-page-node-id="Dr98HPGRiFazACCJwdXbNn">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="dDrzhwgf0iZ5n8xB9NFQb1">
+<title>DevNotes · 知识卡片</title>
+<meta name="description" content="DevNotes — Java SE 技术知识卡片站，选择、判断、填空与代码分析，附详细解析。" data-page-node-id="ACCiWECKJ10kWkzyRSWAKo">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E" data-page-node-id="e3WXUFOadbHaTHRDCsSig0">
+<link rel="stylesheet" href="css/style.css" data-page-node-id="aqrESbxi9t9TczCyhXFS2O">
+</head>
+<body data-page-node-id="HeCAS4eiRSAzVRC3wp1POg">
+<div class="app" data-page-node-id="Ee56dg0BL2biP38rwiiGQk">
+  <!-- ============ 侧边栏 ============ -->
+  <aside class="sidebar" id="sidebar" data-page-node-id="Ilx0bpFl9ICsQMcUvBGNRz">
+    <div class="brand" data-page-node-id="qaxB1cbHCM6j4i7g652cX5">
+      <div class="brand-icon" data-page-node-id="IOeOBbGNwRzNTMCDpUkrRW">&lt;/&gt;</div>
+      <div class="brand-text" data-page-node-id="Cc3mQ3oMdpz9RTJkZtzDav">
+        <strong data-page-node-id="SsHBLlSgL6ysWBwUnccCWL">DevNotes</strong>
+        <span data-page-node-id="z56n0ZvUwHNNbogpcmnDLD">Java SE · 知识卡片</span>
+      </div>
+    </div>
+
+    <nav class="nav" data-page-node-id="hbFeL4KF27BrF2CiYO2vxo">
+      <div class="nav-label" data-page-node-id="FMj18A58ZaHoCnHI9gaIRN">工作区</div>
+      <button class="nav-item active" data-view="home" data-page-node-id="e4tIYDIymr2A0aKti5FLdL"><span class="nav-ico" data-page-node-id="O9zkkT6kclBwHQl35VsH51">◈</span>概览</button>
+      <button class="nav-item" data-view="practice" data-page-node-id="di6N6RL9vWzMyYPWwQvXAP"><span class="nav-ico" data-page-node-id="YMm3jolwXDLDXtyxPWxN7G">✎</span>练习模式</button>
+      <button class="nav-item" data-view="wrong" data-page-node-id="Xj4ijEjMLkhAhYXCiBPmqB"><span class="nav-ico" data-page-node-id="Py33czHpKrZ7fLcXAUUbFl">⚑</span>待巩固<span class="nav-badge" id="wrongBadge" data-page-node-id="ND3SmEl1VK8xk56qxE1umI">0</span></button>
+      <button class="nav-item" data-view="star" data-page-node-id="6rQaxKJJc8Zgt4AuUKUMRd"><span class="nav-ico" data-page-node-id="VYWp10hpsfgIZGygnqgLZ2">★</span>收藏夹<span class="nav-badge" id="starBadge" data-page-node-id="K7KODEriKj97AZOwagzLIZ">0</span></button>
+      <div class="nav-label" data-page-node-id="YHndHFw6M5pMvND7lT7L2h">数据</div>
+      <button class="nav-item" data-view="stats" data-page-node-id="fi1pHk2ZJZOHPDnKd23BHM"><span class="nav-ico" data-page-node-id="Vwrolhf2tHjHYIdXzOqO4z">▤</span>数据面板</button>
+    </nav>
+
+    <div class="sidebar-foot" data-page-node-id="oPK06KCylxtUOTFHynmuCi">
+      <div class="quote-card" data-page-node-id="4bQ5v6cC5RMRLcG9w2BuB5">
+        <div class="quote-mark" data-page-node-id="EFGq9iLvKHB0Rvp18wZKKP">"</div>
+        <p id="dailyQuote" data-page-node-id="gAjea64EbVXdyUJN5x3JEq">把知识装进卡片，一点点变强。</p>
+        <span data-page-node-id="8yCEQLBAjhhbO388hCLuyw">— 今日摘录</span>
+      </div>
+      <div class="user-chip" data-page-node-id="70IyjlmPXtQradfLDRuWcP">
+        <div class="avatar" data-page-node-id="GHBSTcM0p1wzUAM9zfHvDa">Q</div>
+        <div class="user-meta" data-page-node-id="Ud6jqULqAVaLOJ0tIOkQUo"><strong data-page-node-id="G4wNPs3oJbImdyVRZJ9qPi">Visitor</strong><span data-page-node-id="AYzHOHGsUazVbYVNuWo81q">保持好奇</span></div>
+        <span class="online-dot" data-page-node-id="ePAqT2K9faFTrbkAULDJYS"></span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ 主内容 ============ -->
+  <main class="main" data-page-node-id="RscFlv27BXRaKhVOR4yyYf">
+    <header class="topbar" data-page-node-id="aY2mpeciBFij0CqctRoufL">
+      <button class="menu-btn" id="menuBtn" aria-label="菜单" data-page-node-id="TSPYOcxeFn8MecZcZCUNbu">☰</button>
+      <div class="topbar-title" data-page-node-id="meRsdIUKz9MOBocTE4b19P"><span id="crumb" data-page-node-id="FN4ccT58DTMPWyjzr6YQU0">概览</span></div>
+      <div class="topbar-right" data-page-node-id="m7uazdaBcI0PVPCz4BDDDb">
+        <div class="streak-chip" data-page-node-id="5Ci9CHJnkhbBWzuQEmlpIH"><span data-page-node-id="RQ4w67kHWtFbCnGJDNwofa">⚡</span><b id="streakNum" data-page-node-id="3P0YfME0WuP1elMXWPDNBK">0</b> 天连续</div>
+        <button class="icon-btn" id="themeBtn" title="切换主题" data-page-node-id="M7Qcgm5WwwzZIFDuU5fdNX">◐</button>
+        <div class="avatar small" data-page-node-id="v7lX7Mj2c3zwwJSi2lgn4j">Q</div>
+      </div>
+    </header>
+
+    <div class="content" id="content" data-page-node-id="bx4cOYwlyhiKSj3R2GZHVD">
+
+      <!-- 首页 -->
+      <section class="view active" id="view-home" data-page-node-id="dBPagQcp3sMbph0aKv599h">
+        <div class="hero" data-page-node-id="9tkAaU2KQZNE32tEPTAKGK">
+          <div class="hero-bg" data-page-node-id="EgjSn2HfqvPJI7A4DQVrgN"></div>
+          <div class="hero-inner" data-page-node-id="aRHxzUmdyd1sLDoExmukSR">
+            <div class="hero-tag" data-page-node-id="LzBtzSCgm2SPmFHIdrEM9C">✦ JAVA SE · KNOWLEDGE CARDS</div>
+            <h1 data-page-node-id="EOewuggfWS273CEiYlQqOt">把知识点做成卡片，<br data-page-node-id="YTJnSWZ7AW3a0TaHaRSRmP"><span data-page-node-id="S2uMAGOrGo5FNWt0oF2iry">每天收下几张。</span></h1>
+            <p data-page-node-id="gD993otGklXU3935yMwj7L">选择 · 判断 · 填空 · 代码分析 —— 四类卡片，每张都附详细解析。</p>
+            <div class="hero-actions" data-page-node-id="vTZwcCcvmk5seLMgeV11Yg">
+              <button class="btn primary lg" data-go="practice" data-page-node-id="4FrUWb0ZdrUmNaXQhOUVOR">开始练习 <span data-page-node-id="SGjkGWkV16dBNgjEqQfIOF">→</span></button>
+              <button class="btn ghost lg" data-go="stats" data-page-node-id="d4WjdwmOPMTWscAZLcaowl">查看数据</button>
+            </div>
+          </div>
+          <div class="hero-mascot code-art" data-page-node-id="F3zVFf16z2GpMmcXITfz1J">{ <span class="mascot-spark" data-page-node-id="AvQdOxE7kPNGoSq5NPJPhx">}</span> </div>
+        </div>
+
+        <div class="stats-grid" id="homeStats" data-page-node-id="Y2X38NPar6YD9CjcrVmSv2"></div>
+
+        <div class="section-head" data-page-node-id="qQwaDIVFovRQlKBSlAyJ7U">
+          <div data-page-node-id="R2Q2qIcad9oo49F9ZqCvqD"><h2 data-page-node-id="plqxfxxG0hWon4TAZ95LHS">卡片分类</h2><p data-page-node-id="XcrPeyN3VoPKPp53H5ALWk">挑一类开始</p></div>
+          <button class="text-btn" data-go="practice" data-page-node-id="P1gDYDj2W9FjSnEnjM2A02">全部卡片 →</button>
+        </div>
+        <div class="cat-grid" id="catGrid" data-page-node-id="0H9rAqWvQsdD3XRYdVUCqB"></div>
+
+        <div class="bottom-grid" data-page-node-id="hWpg2AMlqYyfEE4XL1phC6">
+          <div class="panel" data-page-node-id="6irJa9Avp9tRrfm3pa2hNd">
+            <div class="panel-head" data-page-node-id="RFFdPUbZkyyyzdtPV9GZv6"><h3 data-page-node-id="SvfG2KVlXe2PKz97yLokH2">📌 使用提示</h3></div>
+            <ul class="tip-list" data-page-node-id="XPNjxbmPJwYDVbeXaNL7Dy">
+              <li data-page-node-id="ZNMgqrEdLsHPbGhH1wZ85X"><span class="tip-dot pink" data-page-node-id="SECoXbL3JYmDsHNC0nP4eC"></span>代码分析题的输出均经过实际编译运行验证，可放心对照。</li>
+              <li data-page-node-id="5wDSxVbYk0gg5zhqDSXseP"><span class="tip-dot purple" data-page-node-id="fjN8l2pCGEpGUEDCq1xU8D"></span>final、static、抽象类、接口是 Java SE 的高频知识点。</li>
+              <li data-page-node-id="RNgrDQ2CPXekk5zNZsy2oz"><span class="tip-dot green" data-page-node-id="uEMbB5V2ZQduBsL5Ctieny"></span>答错的题会自动进入「待巩固」，方便集中回顾。</li>
+            </ul>
+          </div>
+          <div class="panel" data-page-node-id="VeCU0iqmZXcFuAHOopyk4w">
+            <div class="panel-head" data-page-node-id="dzecOTZq7xmubYqHvYewKH"><h3 data-page-node-id="zlLCeecyB6bONAUTw4JfKC">🎯 今日目标</h3><span class="goal-label" id="goalLabel" data-page-node-id="1m5bFsOuc01vCOiCgyVCza">0 / 20</span></div>
+            <div class="goal-bar" data-page-node-id="dG1tvLub9s3kA2EOXiGWUg"><div class="goal-fill" id="goalFill" data-page-node-id="KA0xLWbzp0mRm2TspSvAzk"></div></div>
+            <p class="goal-tip" id="goalTip" data-page-node-id="3STz7GY9Dz8uHf7jfOFGf5">每天 20 张卡片，保持手感。今天还没开始哦～</p>
+            <button class="btn primary block" data-go="practice" data-page-node-id="bg3uLCDVyXkkSA8vxnNF9x">继续练习</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 练习 -->
+      <section class="view" id="view-practice" data-page-node-id="f0kHlappp7o5IosxT9p2Nm">
+        <div class="practice-setup" id="practiceSetup" data-page-node-id="QQ90sIodZTinZnWbOcWDL3">
+          <div class="setup-head" data-page-node-id="x0cPxIAXNDmPF3AzOYTNns">
+            <div class="step-dot active" data-page-node-id="QgW415RtaD5uDSmk4AT30b">1</div>
+            <h2 data-page-node-id="1B8joOZMyhdeUkzJqBoAVa">选择练习方式</h2>
+          </div>
+          <div class="mode-cards" data-page-node-id="jbXEzHMH10vg86GruhpoAl">
+            <button class="mode-card selected" data-mode="order" data-page-node-id="gWKhsHW04aE9OV2QHmLKH1">
+              <span class="mode-ico" data-page-node-id="Ei1ErG66Pwo106suvzV9cF">📖</span><strong data-page-node-id="e3C65b12shKrTdYLJQPMSV">顺序练习</strong><small data-page-node-id="mzOVhmeQU8GaeyJlaLS4ge">按编号逐张过</small>
+            </button>
+            <button class="mode-card" data-mode="random" data-page-node-id="jCU7jgfm9QEgqdOPo3YUJt">
+              <span class="mode-ico" data-page-node-id="JlISIL2luSDf9y5XKs4UZD">🎲</span><strong data-page-node-id="nAnCzHxQQvCHVvBEEaNWee">随机练习</strong><small data-page-node-id="y4ZOrS37phadA4zglLQ0KM">打乱顺序，随时开始</small>
+            </button>
+            <button class="mode-card" data-mode="exam" data-page-node-id="bhqNJ4cF6ZxZmHg6sab0t3">
+              <span class="mode-ico" data-page-node-id="gbemXv9P2ZNrnLGvjg483P">⏱</span><strong data-page-node-id="wKvd5GNQH5PyYiQ5Y3vKJh">模拟测验</strong><small data-page-node-id="lly8k6wIPSZndGrgB1SAK5">交卷后统一看解析</small>
+            </button>
+          </div>
+          <div class="setup-head second" data-page-node-id="NfOj7FoCcZZC3okDciUkTE">
+            <div class="step-dot" data-page-node-id="BLVCHWsP7mf9AjbvnajDUU">2</div>
+            <h2 data-page-node-id="OhBZQW85ngXD12zfX2HzeW">选择卡片范围</h2>
+          </div>
+          <div class="range-chips" id="rangeChips" data-page-node-id="bPelDH08GAAIN99EjkSAyc"></div>
+          <div class="setup-foot" data-page-node-id="XGECAMoaJmi1KnsIzsi3ka">
+            <span class="setup-count" id="setupCount" data-page-node-id="mrtOs3RzUHyKPfnKWE16GD">共 42 张</span>
+            <button class="btn primary lg" id="startBtn" data-page-node-id="NFJJHLUdfNAkWzEJEQ785V">开始 <span data-page-node-id="ZQ3WbVCLBaaBF1YTGVYkxb">→</span></button>
+          </div>
+        </div>
+
+        <div class="quiz-area hidden" id="quizArea" data-page-node-id="SGBBCjXE1yPG0PLa5Ngl6g">
+          <div class="quiz-top" data-page-node-id="U2A0r4EHsYTpG6sD80w96A">
+            <button class="back-btn" id="quitBtn" data-page-node-id="CFCE7rJqdjgNNE3u2ho57N">← 退出</button>
+            <div class="quiz-progress-wrap" data-page-node-id="iIjJsvj17tM9gyu6f2hsRj">
+              <div class="quiz-progress-text" data-page-node-id="nLuTkrbfwQSvCK8NZWXB0r"><span id="qIndex" data-page-node-id="78UfmabCCF4D7E7H6GaGPW">第 1 / 42 张</span><span id="qScoreHint" data-page-node-id="rTIRyOHm00HyNjkArWULmv"></span></div>
+              <div class="quiz-progress" data-page-node-id="HuTBUZgf93Cs3U4drcvdg5"><div class="quiz-progress-fill" id="quizProgressFill" data-page-node-id="HyyIsDPwzFL82oCD6q5dYl"></div></div>
+            </div>
+            <button class="star-btn" id="starBtn" title="收藏这张卡片" data-page-node-id="15UjXzP4p9Ij1ACaT5dSnB">☆</button>
+          </div>
+          <div class="quiz-card" id="quizCard" data-page-node-id="ntGltmkENYiwYR9ag0PsWq"></div>
+          <div class="quiz-nav" data-page-node-id="AEwFFJPnZ2IZ2Z6PuC1Dxi">
+            <button class="btn ghost" id="prevBtn" data-page-node-id="Hk7vjtdjAgAFCpXjBsu56G">← 上一张</button>
+            <button class="btn primary" id="nextBtn" data-page-node-id="gs0Stuk6WmSRF1CDH4koGF">下一张 →</button>
+          </div>
+        </div>
+
+        <div class="result-area hidden" id="resultArea" data-page-node-id="O12Dw8AxoeAHbZCPc27gwT"></div>
+      </section>
+
+      <!-- 待巩固 -->
+      <section class="view" id="view-wrong" data-page-node-id="X14AwpNdTcx7sIFCg3ihyG">
+        <div class="list-head" data-page-node-id="JVNVQoq9kPhb1pGoUfTVxO">
+          <div data-page-node-id="BUBxAEJBddhXMHkMmB1NwD"><h1 data-page-node-id="MxO0T0ADsAFVtFuE6QRjbR">⚑ 待巩固</h1><p data-page-node-id="q6cHMGKORLCeOmzE5VTVkD">这些知识点还没掌握，再过一遍</p></div>
+          <button class="btn ghost" id="clearWrong" data-page-node-id="yHeOKgicVcLmnxVCoyPsYZ">清空列表</button>
+        </div>
+        <div class="question-list" id="wrongList" data-page-node-id="ArA5owRtJIxzFlt35Q1EyZ"></div>
+      </section>
+
+      <!-- 收藏 -->
+      <section class="view" id="view-star" data-page-node-id="DkGutvQCNbgjljscRBTvAl">
+        <div class="list-head" data-page-node-id="2KCziTMeP8jmxfEwPuBBlo">
+          <div data-page-node-id="IyJGbHuv7DGV1jSx0Gfn0U"><h1 data-page-node-id="Wfqv6OgH1oCweoHf3Y6roR">★ 收藏夹</h1><p data-page-node-id="I6vVBspzBXtMuE8qN1FmgF">重要的卡片随手收藏</p></div>
+        </div>
+        <div class="question-list" id="starList" data-page-node-id="i7xBzMtj8qH1iL7T8xVAtZ"></div>
+      </section>
+
+      <!-- 数据 -->
+      <section class="view" id="view-stats" data-page-node-id="4FNFEeDP3NCRhC4Ovjfgbu">
+        <div class="list-head" data-page-node-id="GGLSBbv5OfnWs9uA3UmWJI"><div data-page-node-id="JpHG1ew2OkfusuaEtUbiZ7"><h1 data-page-node-id="C3ya7I4pHpvlWhw6tkQz24">▤ 数据面板</h1><p data-page-node-id="uix1E6cg96QageKuas3KzE">记录每一天的积累</p></div></div>
+        <div class="stats-grid" id="statsGrid" data-page-node-id="ARot6xnhSu0LwDWpV5YrV0"></div>
+        <div class="panel" data-page-node-id="0qQ8OyLbrInAAZHe424Yky">
+          <div class="panel-head" data-page-node-id="kqATmpkzTD1S489MJmGugY"><h3 data-page-node-id="UJZ9XDolOxC2vP6YARjBgD">📊 各分类掌握情况</h3></div>
+          <div class="cat-stats" id="catStats" data-page-node-id="zmNDydvmQJWXyzOoiBoSI0"></div>
+        </div>
+        <div class="panel" data-page-node-id="IacY4BploJwJpDYoSX2ps6">
+          <div class="panel-head" data-page-node-id="4CfIBXecy42uacoRuaA48h"><h3 data-page-node-id="RIi3hvB448W9zDEcVhL41j">🕐 最近练习记录</h3><button class="text-btn" id="clearHistory" data-page-node-id="ncc0j1cF1Ikar8kWOKWmsg">清空记录</button></div>
+          <div class="history-list" id="historyList" data-page-node-id="FA7p5CDWMKoRjIvka2Rgfc"></div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+</div>
+
+<div class="overlay" id="overlay" data-page-node-id="ZXNdGaFv9sLIcnhF9CyHnu"></div>
+<div class="toast" id="toast" data-page-node-id="NCtIugAyo903JbAVZovFNI"></div>
+
+<script src="js/questions.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
